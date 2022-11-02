@@ -34,8 +34,17 @@ const endScreenCss = {
     filter: 'drop-shadow(0 0 5px #1E813A)',
     backgroundClip: 'text',
     color: 'transparent',
-    fontSize: 90,
+    fontSize: 50,
     fontWeight: '800',
+    '@media(min-width: 350px)': {
+      fontSize: 60,
+    },
+    '@media(min-width: 400px)': {
+      fontSize: 70,
+    },
+    '@media(min-width: 500px)': {
+      fontSize: 90,
+    },
   }),
   text: css({
     color: '#5F40A1',
